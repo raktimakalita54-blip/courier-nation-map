@@ -68,7 +68,10 @@
         <section id="about">
             <h2>About This Map</h2>
             <p>The rise of app-based delivery platforms like DoorDash, Amazon Flex, Instacart, and UPS independent contracting has transformed the American labor market. Millions of workers now earn income as independent contractors — classified not as employees but as nonemployer businesses. This map visualizes where that transformation has been most dramatic across the United States between 2018 and 2023.</p>
-            <p>Using data from the US Census Bureau's Nonemployer Statistics (NES) program, this map shows the percent change in courier and messenger establishments (NAICS industry code 492) at the county level. A county colored dark red experienced explosive growth in gig delivery work. A county in grey had no data or saw a decline.</p>
+            <p>Using data from the US Census Bureau's Nonemployer Statistics (NES) program, this map shows the percent change in courier and messenger establishments (NAICS industry code 492) at the county level. A county colored dark red experienced explosive growth in gig delivery work. A county in white had no data or saw a decline.</p>
+            <p>The states with the highest growth are Florida, Georgia, New York, Boston, New Jersey, California.</p>
+            <p>Growth was not limited to large urban counties — many suburban and mid-sized metro counties also saw significant increases.</p>
+            <p>Some rural counties saw little to no change, reflecting limited platform availability outside major markets.</p>
             <p>This map was created as part of a final project for a GIS mapping course, using QGIS for data processing and cartographic design, and published via GitHub Pages.</p>
         </section>
 
@@ -78,29 +81,16 @@
                 <tr><td>Author</td><td>Raktima Kalita</td></tr>
                 <tr><td>Projection</td><td>NAD83 — Geographic Coordinate System (EPSG 4269)</td></tr>
                 <tr><td>Original Data Projection</td><td>NAD83 (EPSG 4269) — US Census TIGER shapefiles</td></tr>
-                <tr><td>Software Used</td><td>QGIS 3.x, Google Sheets, GitHub Pages</td></tr>
+                <tr><td>Software Used</td><td>QGIS 3.4, Google Sheets, GitHub Pages</td></tr>
                 <tr><td>Data Years</td><td>2018 and 2023</td></tr>
                 <tr><td>Industry Code</td><td>NAICS 492 — Couriers and Messengers</td></tr>
                 <tr><td>Geography</td><td>US Counties (approx. 2,959 counties with data)</td></tr>
                 <tr><td>Color Scheme</td><td>Yellow to Red sequential ramp (YlOrRd) — suitable for showing magnitude of growth</td></tr>
-                <tr><td>No Data</td><td>Counties shown in grey had no reported courier establishments in one or both years</td></tr>
+                <tr><td>No Data</td><td>Counties shown in white had no reported courier establishments in one or both years</td></tr>
                 <tr><td>Map Resolutions</td><td>1,200px (web display) and 8,000px (high resolution download)</td></tr>
             </table>
         </section>
 
-        <section id="findings">
-            <h2>Key Findings</h2>
-            <div class="findings-box">
-                <h3>What the map tells us</h3>
-                <ul>
-                    <li>Courier and messenger gig work grew dramatically across the US between 2018 and 2023, driven by the rise of app-based delivery platforms.</li>
-                    <li>Growth was not limited to large urban counties — many suburban and mid-sized metro counties also saw significant increases.</li>
-                    <li>Some rural counties saw little to no change, reflecting limited platform availability outside major markets.</li>
-                    <li>A small number of counties experienced declines, possibly due to market consolidation or changes in platform operations.</li>
-                    <li>The geographic pattern reflects broader trends in the platform economy — growth follows population density and internet infrastructure.</li>
-                </ul>
-            </div>
-        </section>
 
         <section id="data">
             <h2>Data Source</h2>
