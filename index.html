@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courier Nation: The Gig Economy Surge in Delivery Work (2018–2023)</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Georgia, serif; background-color: #f5f0eb; color: #2c2c2c; line-height: 1.8; }
+        header { background-color: #1a1a2e; color: #fff; padding: 48px 32px 36px; text-align: center; }
+        header h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 12px; line-height: 1.3; }
+        header p.subtitle { font-size: 1.05rem; color: #c9b99a; font-style: italic; max-width: 700px; margin: 0 auto; }
+        nav { background-color: #16213e; display: flex; justify-content: center; gap: 32px; padding: 14px 32px; flex-wrap: wrap; }
+        nav a { color: #e2c99a; text-decoration: none; font-family: Arial, sans-serif; font-size: 0.9rem; text-transform: uppercase; }
+        nav a:hover { color: #fff; text-decoration: underline; }
+        main { max-width: 1100px; margin: 0 auto; padding: 40px 24px 60px; }
+        section { margin-bottom: 48px; }
+        section h2 { font-size: 1.4rem; color: #1a1a2e; border-bottom: 2px solid #c9b99a; padding-bottom: 8px; margin-bottom: 20px; font-family: Arial, sans-serif; text-transform: uppercase; letter-spacing: 1px; }
+        section p { font-size: 1rem; margin-bottom: 14px; max-width: 820px; }
+        .map-container { background-color: #fff; border: 1px solid #d4c4b0; border-radius: 6px; padding: 20px; text-align: center; margin-bottom: 16px; }
+        .map-container img { width: 100%; max-width: 1060px; height: auto; border-radius: 4px; display: block; margin: 0 auto; }
+        .map-caption { font-size: 0.88rem; color: #666; font-style: italic; margin-top: 12px; font-family: Arial, sans-serif; }
+        .download-btn { display: inline-block; background-color: #1a1a2e; color: #fff; padding: 12px 28px; border-radius: 4px; text-decoration: none; font-family: Arial, sans-serif; font-size: 0.95rem; margin-top: 16px; }
+        .metadata-table { width: 100%; max-width: 700px; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 0.92rem; margin-top: 8px; }
+        .metadata-table tr { border-bottom: 1px solid #e0d5c5; }
+        .metadata-table td { padding: 10px 14px; vertical-align: top; }
+        .metadata-table td:first-child { font-weight: 700; color: #1a1a2e; width: 200px; background-color: #f0ebe3; }
+        .metadata-table td:last-child { background-color: #fff; }
+        .findings-box { background-color: #1a1a2e; color: #f5f0eb; border-radius: 6px; padding: 28px 32px; max-width: 820px; }
+        .findings-box h3 { font-size: 1.1rem; color: #c9b99a; margin-bottom: 16px; font-family: Arial, sans-serif; text-transform: uppercase; }
+        .findings-box ul { list-style: none; padding: 0; }
+        .findings-box ul li { padding: 8px 0; border-bottom: 1px solid #2e2e4e; font-size: 0.97rem; }
+        .findings-box ul li:last-child { border-bottom: none; }
+        .findings-box ul li::before { content: "→ "; color: #c9b99a; font-weight: 700; }
+        .github-link { display: inline-block; background-color: #f0ebe3; border: 1px solid #c9b99a; color: #1a1a2e; padding: 10px 22px; border-radius: 4px; text-decoration: none; font-family: Arial, sans-serif; font-size: 0.92rem; margin-top: 8px; }
+        footer { background-color: #1a1a2e; color: #c9b99a; text-align: center; padding: 28px 24px; font-family: Arial, sans-serif; font-size: 0.85rem; line-height: 1.8; }
+        footer a { color: #e2c99a; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Courier Nation: The Gig Economy Surge in Delivery Work (2018–2023)</h1>
+        <p class="subtitle">Mapping the percent change in nonemployer courier and messenger establishments across US counties</p>
+    </header>
+
+    <nav>
+        <a href="#map">The Map</a>
+        <a href="#about">About</a>
+        <a href="#metadata">Map Metadata</a>
+        <a href="#findings">Key Findings</a>
+        <a href="#data">Data Source</a>
+        <a href="https://github.com/raktimakalita54-blip/courier-nation-map" target="_blank">GitHub Repository</a>
+    </nav>
+
+    <main>
+
+        <section id="map">
+            <h2>The Map</h2>
+            <div class="map-container">
+                <img src="maps/courier-nation-1200px.png"
+                    alt="Choropleth map of the United States showing percent change in courier and messenger gig worker establishments by county from 2018 to 2023.">
+                <p class="map-caption">Figure 1. Percent change in nonemployer courier and messenger establishments (NAICS 492) by US county, 2018–2023. Data: US Census Bureau Nonemployer Statistics. Map by Raktima Kalita.</p>
+            </div>
+            <a class="download-btn" href="maps/courier-nation-8000px.png" download>Download High Resolution Map (8000px)</a>
+        </section>
+
+        <section id="about">
+            <h2>About This Map</h2>
+            <p>The rise of app-based delivery platforms like DoorDash, Amazon Flex, Instacart, and UPS independent contracting has transformed the American labor market. Millions of workers now earn income as independent contractors — classified not as employees but as nonemployer businesses. This map visualizes where that transformation has been most dramatic across the United States between 2018 and 2023.</p>
+            <p>Using data from the US Census Bureau's Nonemployer Statistics (NES) program, this map shows the percent change in courier and messenger establishments (NAICS industry code 492) at the county level. A county colored dark red experienced explosive growth in gig delivery work. A county in grey had no data or saw a decline.</p>
+            <p>This map was created as part of a final project for a GIS mapping course, using QGIS for data processing and cartographic design, and published via GitHub Pages.</p>
+        </section>
+
+        <section id="metadata">
+            <h2>Map Metadata</h2>
+            <table class="metadata-table">
+                <tr><td>Author</td><td>Raktima Kalita</td></tr>
+                <tr><td>Projection</td><td>NAD83 — Geographic Coordinate System (EPSG 4269)</td></tr>
+                <tr><td>Original Data Projection</td><td>NAD83 (EPSG 4269) — US Census TIGER shapefiles</td></tr>
+                <tr><td>Software Used</td><td>QGIS 3.x, Google Sheets, GitHub Pages</td></tr>
+                <tr><td>Data Years</td><td>2018 and 2023</td></tr>
+                <tr><td>Industry Code</td><td>NAICS 492 — Couriers and Messengers</td></tr>
+                <tr><td>Geography</td><td>US Counties (approx. 2,959 counties with data)</td></tr>
+                <tr><td>Color Scheme</td><td>Yellow to Red sequential ramp (YlOrRd) — suitable for showing magnitude of growth</td></tr>
+                <tr><td>No Data</td><td>Counties shown in grey had no reported courier establishments in one or both years</td></tr>
+                <tr><td>Map Resolutions</td><td>1,200px (web display) and 8,000px (high resolution download)</td></tr>
+            </table>
+        </section>
+
+        <section id="findings">
+            <h2>Key Findings</h2>
+            <div class="findings-box">
+                <h3>What the map tells us</h3>
+                <ul>
+                    <li>Courier and messenger gig work grew dramatically across the US between 2018 and 2023, driven by the rise of app-based delivery platforms.</li>
+                    <li>Growth was not limited to large urban counties — many suburban and mid-sized metro counties also saw significant increases.</li>
+                    <li>Some rural counties saw little to no change, reflecting limited platform availability outside major markets.</li>
+                    <li>A small number of counties experienced declines, possibly due to market consolidation or changes in platform operations.</li>
+                    <li>The geographic pattern reflects broader trends in the platform economy — growth follows population density and internet infrastructure.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="data">
+            <h2>Data Source</h2>
+            <p>The primary data source is the <strong>US Census Bureau Nonemployer Statistics (NES)</strong> program, which tracks businesses with no paid employees — the primary way gig workers appear in government data. The specific industry filtered is <strong>NAICS 492 — Couriers and Messengers</strong>.</p>
+            <p>County boundary shapefiles were downloaded from the <strong>US Census Bureau TIGER/Line Shapefiles</strong> program (2022 release).</p>
+            <table class="metadata-table" style="margin-bottom: 20px;">
+                <tr><td>NES 2023 Data</td><td><a href="https://www.census.gov/programs-surveys/nonemployer-statistics/data/datasets.html" target="_blank">census.gov — Nonemployer Statistics Datasets</a></td></tr>
+                <tr><td>NES 2018 Data</td><td><a href="https://www.census.gov/programs-surveys/nonemployer-statistics/data/datasets.html" target="_blank">census.gov — Nonemployer Statistics Datasets</a></td></tr>
+                <tr><td>County Shapefile</td><td><a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html" target="_blank">census.gov — TIGER/Line Shapefiles</a></td></tr>
+            </table>
+            <p>View the full project repository, including raw data, cleaned data, and QGIS project file:</p>
+            <a class="github-link" href="https://github.com/raktimakalita54-blip/courier-nation-map" target="_blank">View on GitHub → raktimakalita54-blip/courier-nation-map</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Courier Nation: The Gig Economy Surge in Delivery Work (2018–2023)</p>
+        <p>Created by Raktima Kalita &nbsp;|&nbsp; Data: US Census Bureau Nonemployer Statistics &nbsp;|&nbsp; Software: QGIS 3.x</p>
+        <p><a href="https://github.com/raktimakalita54-blip/courier-nation-map" target="_blank">GitHub Repository</a></p>
+    </footer>
+
+</body>
+</html>
